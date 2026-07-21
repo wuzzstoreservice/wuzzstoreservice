@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="220" viewBox="0 0 680 220" role="img" aria-label="Language breakdown">
+  <rect width="680" height="220" rx="12" fill="#0d1117"/>
+  <text x="20" y="32" fill="#f0f6fc" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600">Languages · repo-normalized</text>
+  <text x="20" y="52" fill="#8b949e" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Share per repository (private + public), not raw LOC</text>
+
+  <!-- stacked bar -->
+  <rect x="20" y="72" width="640" height="14" rx="7" fill="#21262d"/>
+  <rect x="20" y="72" width="239" height="14" fill="#f1e05a"/>
+  <rect x="259" y="72" width="154" height="14" fill="#3572A5"/>
+  <rect x="413" y="72" width="127" height="14" fill="#00ADD8"/>
+  <rect x="540" y="72" width="54" height="14" fill="#3178c6"/>
+  <rect x="594" y="72" width="51" height="14" fill="#e34c26"/>
+  <rect x="645" y="72" width="11" height="14" fill="#89e051"/>
+  <rect x="656" y="72" width="3" height="14" fill="#663399"/>
+  <rect x="659" y="72" width="1" height="14" fill="#8b949e"/>
+
+  <!-- rows -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+    <circle cx="28" cy="110" r="5" fill="#f1e05a"/>
+    <text x="42" y="114" fill="#c9d1d9">JavaScript</text>
+    <text x="620" y="114" fill="#8b949e" text-anchor="end">37.3%</text>
+    <rect x="160" y="105" width="430" height="8" rx="4" fill="#21262d"/>
+    <rect x="160" y="105" width="160" height="8" rx="4" fill="#f1e05a"/>
+
+    <circle cx="28" cy="134" r="5" fill="#3572A5"/>
+    <text x="42" y="138" fill="#c9d1d9">Python</text>
+    <text x="620" y="138" fill="#8b949e" text-anchor="end">24.1%</text>
+    <rect x="160" y="129" width="430" height="8" rx="4" fill="#21262d"/>
+    <rect x="160" y="129" width="104" height="8" rx="4" fill="#3572A5"/>
+
+    <circle cx="28" cy="158" r="5" fill="#00ADD8"/>
+    <text x="42" y="162" fill="#c9d1d9">Go</text>
+    <text x="620" y="162" fill="#8b949e" text-anchor="end">19.8%</text>
+    <rect x="160" y="153" width="430" height="8" rx="4" fill="#21262d"/>
+    <rect x="160" y="153" width="85" height="8" rx="4" fill="#00ADD8"/>
+
+    <circle cx="28" cy="182" r="5" fill="#3178c6"/>
+    <text x="42" y="186" fill="#c9d1d9">TypeScript</text>
+    <text x="620" y="186" fill="#8b949e" text-anchor="end">8.4%</text>
+    <rect x="160" y="177" width="430" height="8" rx="4" fill="#21262d"/>
+    <rect x="160" y="177" width="36" height="8" rx="4" fill="#3178c6"/>
+
+    <circle cx="28" cy="206" r="5" fill="#e34c26"/>
+    <text x="42" y="210" fill="#c9d1d9">HTML · Shell · CSS · Other</text>
+    <text x="620" y="210" fill="#8b949e" text-anchor="end">10.4%</text>
+    <rect x="160" y="201" width="430" height="8" rx="4" fill="#21262d"/>
+    <rect x="160" y="201" width="45" height="8" rx="4" fill="#e34c26"/>
+  </g>
+</svg>

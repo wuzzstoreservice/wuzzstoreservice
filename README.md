@@ -22,6 +22,46 @@ Building production tools for commerce platforms, account workflows, and develop
 
 ---
 
+## Languages
+
+> Share per repo (repo-normalized) · private + public · bukan raw LOC  
+> agar dump Unity/C/Java tidak mendominasi statistik.
+
+<div align="center">
+
+![Languages](./assets/languages.svg)
+
+</div>
+
+| Language | Share |
+|---|---:|
+| **JavaScript** | **37.3%** |
+| **Python** | **24.1%** |
+| **Go** | **19.8%** |
+| **TypeScript** | **8.4%** |
+| **HTML** | **8.0%** |
+| **Shell** | **1.7%** |
+| **CSS** | **0.5%** |
+| Other | 0.2% |
+
+```text
+JavaScript  ████████████████████████████████████░░░░░░░░░░░░░░░░  37.3%
+Python      ████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░  24.1%
+Go          ████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  19.8%
+TypeScript  ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.4%
+HTML        ████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   8.0%
+Shell       ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   1.7%
+CSS         █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   0.5%
+```
+
+[![JS](https://img.shields.io/badge/JavaScript-37.3%25-f1e05a?style=flat-square&logo=javascript&logoColor=black)](https://wuzzstoreservice.github.io/#languages)
+[![Python](https://img.shields.io/badge/Python-24.1%25-3572A5?style=flat-square&logo=python&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![Go](https://img.shields.io/badge/Go-19.8%25-00ADD8?style=flat-square&logo=go&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![TS](https://img.shields.io/badge/TypeScript-8.4%25-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![HTML](https://img.shields.io/badge/HTML-8.0%25-E34C26?style=flat-square&logo=html5&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+
+---
+
 ## Featured projects
 
 | Project | Stack | What it does |
@@ -79,6 +119,7 @@ Ops                PM2 · systemd · headless Chrome · proxy pools
 
 ## Connect
 
+- Portfolio: [wuzzstoreservice.github.io](https://wuzzstoreservice.github.io)  
 - Platform: [wuzzstore.my.id](https://wuzzstore.my.id)  
 - GitHub: [@wuzzstoreservice](https://github.com/wuzzstoreservice)  
 - Email: `wuzzstoreservice@gmail.com`  
