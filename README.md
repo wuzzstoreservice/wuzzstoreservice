@@ -5,6 +5,7 @@
 **Backend · Automation · Messaging Bots · API Engineering**
 
 [![GitHub followers](https://img.shields.io/github/followers/wuzzstoreservice?style=for-the-badge&logo=github&color=181717)](https://github.com/wuzzstoreservice)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Site-5e6ad2?style=for-the-badge&logo=github&logoColor=white)](https://wuzzstoreservice.github.io)
 [![Website](https://img.shields.io/badge/WUZZSTORE-Platform-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wuzzstore.my.id)
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -14,6 +15,8 @@
 
 Backend & automation engineer focused on **messaging bots**, **REST APIs**, and **browser automation**.  
 Building production tools for commerce platforms, account workflows, and developer tooling — primarily in **Go** and **Python**.
+
+🌐 **Portfolio:** [wuzzstoreservice.github.io](https://wuzzstoreservice.github.io)
 
 </div>
 
