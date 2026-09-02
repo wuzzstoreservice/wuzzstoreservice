@@ -3,7 +3,6 @@ import json
 import urllib.request
 import urllib.parse
 import re
-from datetime import datetime, timezone
 
 def fetch_repos_graphql(token):
     query = """
@@ -40,7 +39,10 @@ def fetch_repos_graphql(token):
         return json.loads(resp.read().decode('utf-8'))
 
 def calculate_stats(data):
-    repos = data['data']['viewer']['repositories']['nodes']
+    viewer = data.get('data', {}).get('viewer')
+    if not viewer:
+        raise ValueError(f"GraphQL returned unexpected payload: {data}")
+    repos = viewer.get('repositories', {}).get('nodes', [])
     repo_count = 0
     lang_shares = {}
     lang_colors = {}
@@ -57,6 +59,9 @@ def calculate_stats(data):
             lang_colors[name] = color
             fraction = e['size'] / total_size
             lang_shares[name] = lang_shares.get(name, 0.0) + fraction
+
+    if repo_count == 0:
+        raise ValueError("No repositories found or token lacks repo permissions!")
 
     results = []
     for name, val in lang_shares.items():
@@ -180,7 +185,6 @@ def update_readme(results, readme_path):
         pattern = re.compile(r'<!-- START_SECTION:languages -->.*?<!-- END_SECTION:languages -->', re.DOTALL)
         new_content = pattern.sub(section, content)
     else:
-        # Replace the existing static language block
         target_start = "| Language | Share |"
         target_end_marker = "---\n\n## Featured projects"
         
@@ -196,7 +200,7 @@ def update_readme(results, readme_path):
         f.write(new_content)
 
 if __name__ == '__main__':
-    token = os.environ.get('GITHUB_TOKEN')
+    token = os.environ.get('GH_PAT') or os.environ.get('GITHUB_TOKEN')
     if not token:
         import subprocess
         token = subprocess.check_output(['gh', 'auth', 'token']).decode('utf-8').strip()
@@ -206,7 +210,7 @@ if __name__ == '__main__':
     
     data = fetch_repos_graphql(token)
     results, count = calculate_stats(data)
-    print(f"Counted {count} repositories.")
+    print(f"Successfully counted {count} repositories.")
     
     svg_path = os.path.join(repo_root, 'assets', 'languages.svg')
     generate_svg(results, svg_path)

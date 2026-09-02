@@ -21,7 +21,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,7 +31,7 @@ jobs:
 
       - name: Run profile stats generator
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
           python scripts/update-profile.py
 
@@ -43,5 +44,6 @@ jobs:
             echo "No changes in stats."
           else
             git commit -m "chore(stats): update real-time profile statistics and charts [skip ci]"
-            git push
+            git pull --rebase origin main || true
+            git push origin main
           fi
