@@ -5,50 +5,50 @@
 
   <!-- stacked bar -->
   <rect x="20" y="72" width="640" height="14" rx="7" fill="#21262d"/>
-  <rect x="20" y="72" width="187" height="14" fill="#3572A5"/>
-  <rect x="207" y="72" width="187" height="14" fill="#f1e05a"/>
-  <rect x="394" y="72" width="78" height="14" fill="#00ADD8"/>
-  <rect x="472" y="72" width="71" height="14" fill="#89e051"/>
-  <rect x="543" y="72" width="35" height="14" fill="#3178c6"/>
-  <rect x="578" y="72" width="33" height="14" fill="#e34c26"/>
-  <rect x="611" y="72" width="49" height="14" fill="#8b949e"/>
+  <rect x="20" y="72" width="196" height="14" fill="#3572A5"/>
+  <rect x="216" y="72" width="183" height="14" fill="#f1e05a"/>
+  <rect x="399" y="72" width="76" height="14" fill="#00ADD8"/>
+  <rect x="475" y="72" width="69" height="14" fill="#89e051"/>
+  <rect x="544" y="72" width="35" height="14" fill="#3178c6"/>
+  <rect x="579" y="72" width="33" height="14" fill="#e34c26"/>
+  <rect x="612" y="72" width="48" height="14" fill="#8b949e"/>
 
   <!-- rows -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
     <circle cx="28" cy="110" r="5" fill="#3572A5"/>
     <text x="42" y="114" fill="#c9d1d9">Python</text>
-    <text x="620" y="114" fill="#8b949e" text-anchor="end">29.3%</text>
+    <text x="620" y="114" fill="#8b949e" text-anchor="end">30.6%</text>
     <rect x="160" y="105" width="430" height="8" rx="4" fill="#21262d"/>
-    <rect x="160" y="105" width="126" height="8" rx="4" fill="#3572A5"/>
+    <rect x="160" y="105" width="132" height="8" rx="4" fill="#3572A5"/>
     <circle cx="28" cy="134" r="5" fill="#f1e05a"/>
     <text x="42" y="138" fill="#c9d1d9">JavaScript</text>
-    <text x="620" y="138" fill="#8b949e" text-anchor="end">29.2%</text>
+    <text x="620" y="138" fill="#8b949e" text-anchor="end">28.7%</text>
     <rect x="160" y="129" width="430" height="8" rx="4" fill="#21262d"/>
-    <rect x="160" y="129" width="126" height="8" rx="4" fill="#f1e05a"/>
+    <rect x="160" y="129" width="123" height="8" rx="4" fill="#f1e05a"/>
     <circle cx="28" cy="158" r="5" fill="#00ADD8"/>
     <text x="42" y="162" fill="#c9d1d9">Go</text>
-    <text x="620" y="162" fill="#8b949e" text-anchor="end">12.1%</text>
+    <text x="620" y="162" fill="#8b949e" text-anchor="end">11.9%</text>
     <rect x="160" y="153" width="430" height="8" rx="4" fill="#21262d"/>
-    <rect x="160" y="153" width="52" height="8" rx="4" fill="#00ADD8"/>
+    <rect x="160" y="153" width="51" height="8" rx="4" fill="#00ADD8"/>
     <circle cx="28" cy="182" r="5" fill="#89e051"/>
     <text x="42" y="186" fill="#c9d1d9">Shell</text>
-    <text x="620" y="186" fill="#8b949e" text-anchor="end">11.0%</text>
+    <text x="620" y="186" fill="#8b949e" text-anchor="end">10.8%</text>
     <rect x="160" y="177" width="430" height="8" rx="4" fill="#21262d"/>
     <rect x="160" y="177" width="47" height="8" rx="4" fill="#89e051"/>
     <circle cx="28" cy="206" r="5" fill="#3178c6"/>
     <text x="42" y="210" fill="#c9d1d9">TypeScript</text>
-    <text x="620" y="210" fill="#8b949e" text-anchor="end">5.5%</text>
+    <text x="620" y="210" fill="#8b949e" text-anchor="end">5.4%</text>
     <rect x="160" y="201" width="430" height="8" rx="4" fill="#21262d"/>
-    <rect x="160" y="201" width="24" height="8" rx="4" fill="#3178c6"/>
+    <rect x="160" y="201" width="23" height="8" rx="4" fill="#3178c6"/>
     <circle cx="28" cy="230" r="5" fill="#e34c26"/>
     <text x="42" y="234" fill="#c9d1d9">HTML</text>
-    <text x="620" y="234" fill="#8b949e" text-anchor="end">5.2%</text>
+    <text x="620" y="234" fill="#8b949e" text-anchor="end">5.1%</text>
     <rect x="160" y="225" width="430" height="8" rx="4" fill="#21262d"/>
     <rect x="160" y="225" width="22" height="8" rx="4" fill="#e34c26"/>
     <circle cx="28" cy="254" r="5" fill="#8b949e"/>
     <text x="42" y="258" fill="#c9d1d9">C# · PowerShell · Java · C · Other</text>
-    <text x="620" y="258" fill="#8b949e" text-anchor="end">7.6%</text>
+    <text x="620" y="258" fill="#8b949e" text-anchor="end">7.5%</text>
     <rect x="160" y="249" width="430" height="8" rx="4" fill="#21262d"/>
-    <rect x="160" y="249" width="33" height="8" rx="4" fill="#8b949e"/>
+    <rect x="160" y="249" width="32" height="8" rx="4" fill="#8b949e"/>
   </g>
 </svg>
