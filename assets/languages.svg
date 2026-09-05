@@ -6,12 +6,12 @@
   <!-- stacked bar -->
   <rect x="20" y="72" width="640" height="14" rx="7" fill="#21262d"/>
   <rect x="20" y="72" width="196" height="14" fill="#3572A5"/>
-  <rect x="216" y="72" width="183" height="14" fill="#f1e05a"/>
-  <rect x="399" y="72" width="76" height="14" fill="#00ADD8"/>
-  <rect x="475" y="72" width="69" height="14" fill="#89e051"/>
-  <rect x="544" y="72" width="35" height="14" fill="#3178c6"/>
-  <rect x="579" y="72" width="33" height="14" fill="#e34c26"/>
-  <rect x="612" y="72" width="48" height="14" fill="#8b949e"/>
+  <rect x="216" y="72" width="184" height="14" fill="#f1e05a"/>
+  <rect x="400" y="72" width="76" height="14" fill="#00ADD8"/>
+  <rect x="476" y="72" width="69" height="14" fill="#89e051"/>
+  <rect x="545" y="72" width="35" height="14" fill="#3178c6"/>
+  <rect x="580" y="72" width="33" height="14" fill="#e34c26"/>
+  <rect x="613" y="72" width="47" height="14" fill="#8b949e"/>
 
   <!-- rows -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
@@ -34,7 +34,7 @@
     <text x="42" y="186" fill="#c9d1d9">Shell</text>
     <text x="620" y="186" fill="#8b949e" text-anchor="end">10.8%</text>
     <rect x="160" y="177" width="430" height="8" rx="4" fill="#21262d"/>
-    <rect x="160" y="177" width="47" height="8" rx="4" fill="#89e051"/>
+    <rect x="160" y="177" width="46" height="8" rx="4" fill="#89e051"/>
     <circle cx="28" cy="206" r="5" fill="#3178c6"/>
     <text x="42" y="210" fill="#c9d1d9">TypeScript</text>
     <text x="620" y="210" fill="#8b949e" text-anchor="end">5.4%</text>
