@@ -5,8 +5,8 @@
 
   <!-- stacked bar -->
   <rect x="20" y="72" width="640" height="14" rx="7" fill="#21262d"/>
-  <rect x="20" y="72" width="202" height="14" fill="#3572A5"/>
-  <rect x="222" y="72" width="188" height="14" fill="#f1e05a"/>
+  <rect x="20" y="72" width="201" height="14" fill="#3572A5"/>
+  <rect x="221" y="72" width="189" height="14" fill="#f1e05a"/>
   <rect x="410" y="72" width="72" height="14" fill="#00ADD8"/>
   <rect x="482" y="72" width="65" height="14" fill="#89e051"/>
   <rect x="547" y="72" width="34" height="14" fill="#e34c26"/>
@@ -22,7 +22,7 @@
     <rect x="160" y="105" width="135" height="8" rx="4" fill="#3572A5"/>
     <circle cx="28" cy="134" r="5" fill="#f1e05a"/>
     <text x="42" y="138" fill="#c9d1d9">JavaScript</text>
-    <text x="620" y="138" fill="#8b949e" text-anchor="end">29.4%</text>
+    <text x="620" y="138" fill="#8b949e" text-anchor="end">29.5%</text>
     <rect x="160" y="129" width="430" height="8" rx="4" fill="#21262d"/>
     <rect x="160" y="129" width="127" height="8" rx="4" fill="#f1e05a"/>
     <circle cx="28" cy="158" r="5" fill="#00ADD8"/>
