@@ -5,19 +5,19 @@
 
   <!-- stacked bar -->
   <rect x="20" y="72" width="640" height="14" rx="7" fill="#21262d"/>
-  <rect x="20" y="72" width="202" height="14" fill="#3572A5"/>
-  <rect x="222" y="72" width="192" height="14" fill="#f1e05a"/>
-  <rect x="414" y="72" width="71" height="14" fill="#00ADD8"/>
-  <rect x="485" y="72" width="64" height="14" fill="#89e051"/>
-  <rect x="549" y="72" width="33" height="14" fill="#e34c26"/>
-  <rect x="582" y="72" width="32" height="14" fill="#3178c6"/>
-  <rect x="614" y="72" width="46" height="14" fill="#8b949e"/>
+  <rect x="20" y="72" width="203" height="14" fill="#3572A5"/>
+  <rect x="223" y="72" width="192" height="14" fill="#f1e05a"/>
+  <rect x="415" y="72" width="71" height="14" fill="#00ADD8"/>
+  <rect x="486" y="72" width="64" height="14" fill="#89e051"/>
+  <rect x="550" y="72" width="33" height="14" fill="#e34c26"/>
+  <rect x="583" y="72" width="32" height="14" fill="#3178c6"/>
+  <rect x="615" y="72" width="45" height="14" fill="#8b949e"/>
 
   <!-- rows -->
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
     <circle cx="28" cy="110" r="5" fill="#3572A5"/>
     <text x="42" y="114" fill="#c9d1d9">Python</text>
-    <text x="620" y="114" fill="#8b949e" text-anchor="end">31.6%</text>
+    <text x="620" y="114" fill="#8b949e" text-anchor="end">31.7%</text>
     <rect x="160" y="105" width="430" height="8" rx="4" fill="#21262d"/>
     <rect x="160" y="105" width="136" height="8" rx="4" fill="#3572A5"/>
     <circle cx="28" cy="134" r="5" fill="#f1e05a"/>
