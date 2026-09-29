@@ -42,29 +42,29 @@ Building production tools for commerce platforms, account workflows, and develop
 <!-- START_SECTION:languages -->
 | Language | Share |
 |---|---:|
-| **Python** | **33.6%** |
-| **JavaScript** | **28.4%** |
-| **Go** | **10.3%** |
-| **Shell** | **9.4%** |
-| **TypeScript** | **5.6%** |
-| **HTML** | **5.4%** |
-| Other | 7.4% |
+| **Python** | **34.7%** |
+| **JavaScript** | **27.9%** |
+| **Go** | **10.1%** |
+| **Shell** | **9.2%** |
+| **TypeScript** | **5.5%** |
+| **HTML** | **5.3%** |
+| Other | 7.3% |
 
 ```text
-Python       █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  33.6%
-JavaScript   ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  28.4%
-Go           █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.3%
-Shell        █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.4%
-TypeScript   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.6%
-HTML         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.4%
+Python       █████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  34.7%
+JavaScript   ██████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  27.9%
+Go           █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10.1%
+Shell        █████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   9.2%
+TypeScript   ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.5%
+HTML         ███░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   5.3%
 ```
 
-[![Python](https://img.shields.io/badge/Python-33.6%25-3572A5?style=flat-square&logo=python&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
-[![JavaScript](https://img.shields.io/badge/JavaScript-28.4%25-f1e05a?style=flat-square&logo=javascript&logoColor=black)](https://wuzzstoreservice.github.io/#languages)
-[![Go](https://img.shields.io/badge/Go-10.3%25-00ADD8?style=flat-square&logo=go&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
-[![Shell](https://img.shields.io/badge/Shell-9.4%25-89e051?style=flat-square&logo=shell&logoColor=black)](https://wuzzstoreservice.github.io/#languages)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.6%25-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
-[![HTML](https://img.shields.io/badge/HTML-5.4%25-E34C26?style=flat-square&logo=html&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![Python](https://img.shields.io/badge/Python-34.7%25-3572A5?style=flat-square&logo=python&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![JavaScript](https://img.shields.io/badge/JavaScript-27.9%25-f1e05a?style=flat-square&logo=javascript&logoColor=black)](https://wuzzstoreservice.github.io/#languages)
+[![Go](https://img.shields.io/badge/Go-10.1%25-00ADD8?style=flat-square&logo=go&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![Shell](https://img.shields.io/badge/Shell-9.2%25-89e051?style=flat-square&logo=shell&logoColor=black)](https://wuzzstoreservice.github.io/#languages)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5%25-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
+[![HTML](https://img.shields.io/badge/HTML-5.3%25-E34C26?style=flat-square&logo=html&logoColor=white)](https://wuzzstoreservice.github.io/#languages)
 <!-- END_SECTION:languages -->
 
 ---
